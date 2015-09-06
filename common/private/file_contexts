@@ -8,6 +8,9 @@
 # Fingerprint
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.0-service u:object_r:hal_fingerprint_default_exec:s0
 
+# Persistent properties
+/persist/properties                     u:object_r:persist_property_file:s0
+
 # Sysinit
 /system/bin/sysinit                     u:object_r:sysinit_exec:s0
 
